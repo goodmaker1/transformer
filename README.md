@@ -25,6 +25,7 @@ pip install -r requirements.txt
 ```
 
 ## 三、项目结构
+```bash
 ├── src/                    # 主代码目录（模型、数据、训练脚本等）
 │   ├── dataset.py
 │   ├── model.py
@@ -40,6 +41,7 @@ pip install -r requirements.txt
 │
 ├── requirements.txt
 └── README.md
+```
 
 ## 四、运行命令说明
 ```bash
