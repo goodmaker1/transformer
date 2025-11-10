@@ -27,17 +27,20 @@ pip install -r requirements.txt
 ## 三、项目结构
 ```bash
 ├── src/                    # 主代码目录（模型、数据、训练脚本等）
-│   ├── dataset.py
-│   ├── model.py
-│   ├── train.py
-│   └── utils.py
+│   ├── result.py
+│   ├── train_iwslt_10k.py
+│   └── transformer.py
+│
+├── data_cache/
+│   ├── train_en_de.txt
+│   └── val_en_de.txt
 │
 ├── scripts/
 │   └── run.sh              # 训练运行脚本（可一键启动所有实验）
 │
 ├── results/                # 放置训练曲线图与结果表格
-│   ├── loss_curve.png
-│   └── metrics_table.csv
+│   ├── *_loss.png
+│   └── *_metrics.csv
 │
 ├── requirements.txt
 └── README.md
